@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alurabooks-ds",
+  "name": "alurabooks-ds-alessandro-maciel",
   "author": "Alessandro Maciel",
   "module": "dist/alurabooks-ds.esm.js",
   "size-limit": [

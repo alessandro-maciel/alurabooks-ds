@@ -18,6 +18,10 @@ jobs:
     # The list of steps that the action will go through
     steps:
       - uses: actions/checkout@v2
+      - name: Set Git identity
+        run: |
+          git config user.name "Alessandro Maciel"
+          git config user.email "alessandromaciel237@hotmail.com"
       - name: Prepare repository
         run: git fetch --unshallow --tags
       - name: Use Node.js 16.x

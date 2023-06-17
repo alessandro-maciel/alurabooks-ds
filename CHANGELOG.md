@@ -1,3 +1,15 @@
+# v0.6.4 (Sat Jun 17 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: botão secundário com background transparent (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.3 (Sat Jun 17 2023)
 
 #### ⚠️ Pushed to `main`

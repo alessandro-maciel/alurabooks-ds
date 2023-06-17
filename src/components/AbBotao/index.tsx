@@ -8,7 +8,7 @@ export interface AbBotaoProps {
 }
 
 const BotaoEstilizado = styled.button<AbBotaoProps>`
-    background: ${(props: AbBotaoProps) =>  props.tipo === 'primario' ? '#EB9B00' : '#FFFFFF'};
+    background: ${(props: AbBotaoProps) =>  props.tipo === 'primario' ? '#EB9B00' : 'transparent'};
     padding: 16px 32px;
     border: 2px solid #EB9B00;
     color: ${(props: AbBotaoProps) =>  props.tipo === 'primario' ? '#FFFFFF' : '#EB9B00'};

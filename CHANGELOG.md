@@ -1,3 +1,16 @@
+# v0.6.3 (Sat Jun 17 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/alessandro-maciel/alurabooks-ds (alessandromaciel237@gmail.com)
+- fix: botão secundário com background transparente (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.2 (Tue Jun 13 2023)
 
 #### ⚠️ Pushed to `main`

@@ -1,3 +1,15 @@
+# v0.6.5 (Mon Jun 19 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: componente modal (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.4 (Sat Jun 17 2023)
 
 #### ⚠️ Pushed to `main`

@@ -4,13 +4,12 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;    
-    position: absolute;
+    position: fixed;
     left: 0px;
     right: 0px;
     top: 0px;
     bottom: 0px;
     background: rgba(101, 101, 101, 0.85);
-    overflow: hidden;
     z-index: 999;
 `
 

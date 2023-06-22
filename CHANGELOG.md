@@ -1,3 +1,15 @@
+# v0.6.9 (Thu Jun 22 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: posição fixa do componente AbModal (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.8 (Thu Jun 22 2023)
 
 #### ⚠️ Pushed to `main`

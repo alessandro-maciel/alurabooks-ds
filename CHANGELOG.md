@@ -1,3 +1,15 @@
+# v0.6.7 (Thu Jun 22 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: importação do componente AbModal (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.6 (Thu Jun 22 2023)
 
 #### ⚠️ Pushed to `main`

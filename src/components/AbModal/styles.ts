@@ -10,6 +10,8 @@ export const Container = styled.div`
     top: 0px;
     bottom: 0px;
     background: rgba(101, 101, 101, 0.85);
+    overflow: hidden;
+    z-index: 999;
 `
 
 export const Modal = styled.div`

@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentMeta } from "@storybook/react";
-import AbModal from "../src/components/AbModal";
+import { AbModal } from "../src";
 
 export default {
     title: 'Components/AbModal',

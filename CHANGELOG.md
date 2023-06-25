@@ -1,3 +1,17 @@
+# v0.6.10 (Sun Jun 25 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: error build (alessandromaciel237@gmail.com)
+- fix: run npm update (alessandromaciel237@gmail.com)
+- refactor: componente AbModal (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.9 (Thu Jun 22 2023)
 
 #### ⚠️ Pushed to `main`

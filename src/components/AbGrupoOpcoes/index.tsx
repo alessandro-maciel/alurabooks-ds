@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { styled } from "styled-components";
 
-const Section = styled.section<{selecionado: boolean}>`
+interface Props {
+    selecionado: boolean;
+}
+
+const Section = styled.section<Props>`
     width: 194px;
     height: 88px;
-    background: ${props => props.selecionado ? 'linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);' : '#FFFFFF'};
+    background: ${(props: Props) => props.selecionado ? 'linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);' : '#FFFFFF'};
     border: 1px solid;
-    border-color: ${props => props.selecionado ? '#002F52' : '#EB9B00'};
+    border-color: ${(props: Props) => props.selecionado ? '#002F52' : '#EB9B00'};
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -16,17 +20,17 @@ const Section = styled.section<{selecionado: boolean}>`
     font-family: sans-serif;
     cursor: pointer;
     header {
-        color: ${props => props.selecionado ? '#FFFFFF' : '#EB9B00'};
+        color: ${(props: Props) => props.selecionado ? '#FFFFFF' : '#EB9B00'};
         font-size: 12px;
         font-weight: 400;
     }
     strong {
-        color: ${props => props.selecionado ? '#FFFFFF' : '#EB9B00'};;
+        color: ${(props: Props) => props.selecionado ? '#FFFFFF' : '#EB9B00'};;
         font-size: 16px;
         font-weight: 700;
     }
     footer {
-        color: ${props => props.selecionado ? '#FFFFFF' : 'rgba(0, 0, 0, 0.54)'};;
+        color: ${(props: Props) => props.selecionado === true ? '#FFFFFF' : 'rgba(0, 0, 0, 0.54)'};;
         font-size: 12px;
         font-weight: 400;
     }

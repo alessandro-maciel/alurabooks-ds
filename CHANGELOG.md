@@ -1,3 +1,15 @@
+# v0.6.11 (Mon Jun 26 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix: funcão click do componente AbBotao (alessandromaciel237@gmail.com)
+
+#### Authors: 1
+
+- Alessandro Maciel (alessandromaciel237@gmail.com)
+
+---
+
 # v0.6.10 (Sun Jun 25 2023)
 
 #### ⚠️ Pushed to `main`

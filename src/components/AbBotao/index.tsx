@@ -7,14 +7,18 @@ export interface AbBotaoProps {
     onPress: () => void;
 }
 
-const BotaoEstilizado = styled.button<AbBotaoProps>`
-    background: ${(props: AbBotaoProps) =>  props.tipo === 'primario' ? '#EB9B00' : 'transparent'};
+interface BotaoProps {
+    tipo?: 'primario' | 'secundario';
+}
+
+const BotaoEstilizado = styled.button<BotaoProps>`
+    background: ${(props: BotaoProps) =>  props.tipo === 'primario' ? '#EB9B00' : 'transparent'};
     padding: 16px 32px;
     border: 2px solid #EB9B00;
-    color: ${(props: AbBotaoProps) =>  props.tipo === 'primario' ? '#FFFFFF' : '#EB9B00'};
+    color: ${(props: BotaoProps) =>  props.tipo === 'primario' ? '#FFFFFF' : '#EB9B00'};
     font-size: 20px;
     cursor: pointer;
-    ${(props: AbBotaoProps) =>  props.tipo === 'primario' 
+    ${(props: BotaoProps) =>  props.tipo === 'primario' 
         ? css `
             &:hover {
             background: #B87900;
@@ -32,8 +36,8 @@ const BotaoEstilizado = styled.button<AbBotaoProps>`
 export function AbBotao({texto, onPress, tipo = 'primario'}: AbBotaoProps){
     return (
         <BotaoEstilizado 
-            onPress={onPress}
             tipo={tipo}
+            onClick={onPress}
         >
             {texto}
         </BotaoEstilizado>
